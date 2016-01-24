@@ -1,6 +1,6 @@
 {
   "name": "embedly-url",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Extract properties from an embedly url",
   "main": "index.js",
   "scripts": {
