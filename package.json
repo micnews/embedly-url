@@ -4,7 +4,8 @@
   "description": "Extract properties from an embedly url",
   "main": "index.js",
   "scripts": {
-    "test": "semistandard | snazzy && tape test.js"
+    "test": "semistandard | snazzy && tape test.js",
+    "posttest": "package-json-to-readme package.json --travis > readme.md"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/micnews/embedly-url#readme",
   "devDependencies": {
+    "package-json-to-readme": "^1.5.0",
     "semistandard": "^7.0.5",
     "snazzy": "^2.0.1",
     "tape": "^4.4.0"
