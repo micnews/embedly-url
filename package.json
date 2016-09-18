@@ -19,11 +19,11 @@
   "homepage": "https://github.com/micnews/embedly-url#readme",
   "devDependencies": {
     "package-json-to-readme": "^1.5.0",
-    "semistandard": "^7.0.5",
-    "snazzy": "^2.0.1",
+    "semistandard": "^9.0.0",
+    "snazzy": "^5.0.0",
     "tape": "^4.4.0"
   },
   "dependencies": {
-    "he": "^0.5.0"
+    "he": "^1.1.0"
   }
 }
